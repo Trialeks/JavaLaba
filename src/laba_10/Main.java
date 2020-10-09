@@ -102,7 +102,14 @@ public class Main extends JFrame{
                           break;
                           case '-': r=x-y;
                           break;
-                          case '/': r=x/y;
+                          case '/': 
+                          {
+                              if(y==0.0)
+                              {
+                                  System.exit(0);
+                              }
+                              else r=x/y;
+                          }
                           break;
                           case '*': r=x*y;
                           break;
