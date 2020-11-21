@@ -31,11 +31,11 @@ public class Main {
                     r+=rashod;
                     if(!company.containsKey(firm))
                         {
-                            company.put(firm,prihod);
+                            company.put(firm,rashod);
                         }
                     else
                     {
-                        double d=company.get(firm)+prihod;
+                        double d=company.get(firm)+rashod;
                         company.put(firm,d);
                     }
             }
